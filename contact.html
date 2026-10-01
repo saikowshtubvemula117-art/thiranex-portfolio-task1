@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | V.Sai Kowshtub &mdash; Get in Touch About Projects &amp; Internships</title>
+  <meta name="description" content="Contact V.Sai Kowshtub about internships, freelance web work or accessibility audits. Accessible contact form, plus direct email, phone and social profile links.">
+  <meta name="author" content="V.Sai Kowshtub">
+  <meta name="theme-color" content="#1e3a8a">
+  <meta name="color-scheme" content="light">
+  <link rel="canonical" href="https://sai-portfolio.example.com/contact.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact | V.Sai Kowshtub">
+  <meta property="og:description" content="Get in touch about internships, freelance web work or accessibility audits.">
+  <meta property="og:locale" content="en">
+  <meta property="og:url" content="https://sai-portfolio.example.com/contact.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Contact | V.Sai Kowshtub">
+  <meta name="twitter:description" content="Get in touch about internships, freelance web work or accessibility audits.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231e3a8a'/%3E%3Ctext x='32' y='44' font-family='Segoe UI,Arial,sans-serif' font-size='26' font-weight='700' fill='%23ffffff' text-anchor='middle'%3EVS%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" data-site-header>
+    <div class="container site-header__inner">
+      <a class="site-brand" href="index.html">
+        <span class="site-brand__mark" aria-hidden="true">VS</span>
+        <span>V.Sai Kowshtub</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <button class="site-nav__toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-menu">
+          <span class="site-nav__toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span data-nav-toggle-label>Menu</span>
+        </button>
+        <ul class="site-nav__list" id="primary-menu" hidden>
+          <li><a class="site-nav__link" href="index.html">Home</a></li>
+          <li><a class="site-nav__link" href="about.html">About Me</a></li>
+          <li><a class="site-nav__link" href="projects.html">Projects</a></li>
+          <li><a class="site-nav__link" href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="scroll-progress" data-scroll-progress aria-hidden="true"></div>
+  </header>
+
+  <main id="main-content">
+    <section class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Contact</p>
+          <h1 id="contact-title">Get in touch</h1>
+          <p class="lead">
+            Whether you have a role to fill, a project in mind, or just want to ask how one of the
+            projects on this site was built &mdash; I read every message and reply to most within two
+            working days.
+          </p>
+        </div>
+
+        <div class="layout-split">
+          <section aria-labelledby="form-title">
+            <h2 id="form-title">Send me a message</h2>
+            <p class="text-muted">
+              All fields marked with an asterisk are required. Errors are described in words next to the
+              field, not shown in colour alone.
+            </p>
+
+            <form class="form" action="#" method="post" novalidate data-contact-form>
+
+              <p class="notice notice--error form-summary" role="alert" data-form-summary></p>
+
+              <div class="form__row">
+                <div class="field">
+                  <label class="field__label" for="name">
+                    Full Name <span class="field__required" aria-hidden="true">*</span><span class="visually-hidden">(required)</span>
+                  </label>
+                  <input class="field__control" type="text" id="name" name="name" autocomplete="name"
+                         placeholder="Your full name" required minlength="2" data-validate aria-describedby="name-hint">
+                  <p class="field__hint" id="name-hint">Please use the name you would like me to reply to.</p>
+                  <p class="field__error" id="name-error" hidden></p>
+                </div>
+
+                <div class="field">
+                  <label class="field__label" for="email">
+                    Email Address <span class="field__required" aria-hidden="true">*</span><span class="visually-hidden">(required)</span>
+                  </label>
+                  <input class="field__control" type="email" id="email" name="email" autocomplete="email"
+                         placeholder="name@example.com" required data-validate aria-describedby="email-hint">
+                  <p class="field__hint" id="email-hint">I will only use this address to reply to you.</p>
+                  <p class="field__error" id="email-error" hidden></p>
+                </div>
+              </div>
+
+              <div class="form__row">
+                <div class="field">
+                  <label class="field__label" for="phone">
+                    Phone Number <span class="field__required" aria-hidden="true">*</span><span class="visually-hidden">(required)</span>
+                  </label>
+                  <input class="field__control" type="tel" id="phone" name="phone" autocomplete="tel"
+                         placeholder="+91 63097 83808" required data-validate aria-describedby="phone-hint">
+                  <p class="field__hint" id="phone-hint">Include your country code so I can call you back.</p>
+                  <p class="field__error" id="phone-error" hidden></p>
+                </div>
+
+                <div class="field">
+                  <label class="field__label" for="subject">
+                    Subject <span class="field__required" aria-hidden="true">*</span><span class="visually-hidden">(required)</span>
+                  </label>
+                  <select class="field__control" id="subject" name="subject" autocomplete="off" required data-validate aria-describedby="subject-hint">
+                    <option value="">Please choose a subject&hellip;</option>
+                    <option value="internship">Internship or job opportunity</option>
+                    <option value="project">Project collaboration</option>
+                    <option value="accessibility">Accessibility audit or review</option>
+                    <option value="mentorship">Mentorship or guidance</option>
+                    <option value="other">Something else</option>
+                  </select>
+                  <p class="field__hint" id="subject-hint">Choosing a subject helps me reply faster.</p>
+                  <p class="field__error" id="subject-error" hidden></p>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="field__label" for="message">
+                  Message <span class="field__required" aria-hidden="true">*</span><span class="visually-hidden">(required)</span>
+                </label>
+                <textarea class="field__control" id="message" name="message" rows="7" required minlength="20"
+                          maxlength="1000" placeholder="Tell me about the role, the project or the question&hellip;"
+                          data-validate aria-describedby="message-hint message-count"></textarea>
+                <p class="field__hint" id="message-hint">Please write at least 20 characters. Do not include passwords or sensitive data.</p>
+                <p class="char-count" id="message-count" data-char-count data-for="message" data-state="">0 / 1000</p>
+                <p class="field__error" id="message-error" hidden></p>
+              </div>
+
+              <div class="form__actions">
+                <button class="btn" type="submit">Send Message</button>
+                <p class="form__note" data-form-note>
+                  This form opens WhatsApp with your message already written. Nothing is stored on
+                  this site, and you stay in control &mdash; you press send.
+                </p>
+              </div>
+
+              <div class="notice notice--success" tabindex="-1" data-form-success hidden>
+                <span class="notice__icon" aria-hidden="true">&check;</span>
+                <div class="form__success-body">
+                  <p class="form__success-text" role="status" data-success-text></p>
+                  <p class="form__success-hint">
+                    WhatsApp will open with your message ready to go. Review it there, then press
+                    send &mdash; only you can send it from your own account.
+                  </p>
+                  <p class="btn-row">
+                    <a class="btn" data-whatsapp-link href="#" rel="noopener noreferrer" target="_blank">
+                      Open WhatsApp<span class="visually-hidden"> and send this message (opens in a new tab)</span>
+                    </a>
+                    <a class="btn btn--secondary" data-mailto-link href="#">
+                      Email it instead<span class="visually-hidden">: send this message by email</span>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </form>
+          </section>
+
+          <aside aria-labelledby="details-title">
+            <div class="panel" style="margin-bottom: var(--space-m)">
+              <h2 class="panel__title" id="details-title">Direct contact details</h2>
+              <p class="text-muted">
+                Prefer email or a call? Both reach the same inbox &mdash; the form is just the tidier
+                option because it keeps the details in one place.
+              </p>
+              <ul class="contact-details">
+                <li>
+                  <span class="contact-details__label">Email</span>
+                  <a href="mailto:saikowshtubvemula117@gmail.com">saikowshtubvemula117@gmail.com</a>
+                </li>
+                <li>
+                  <span class="contact-details__label">Phone</span>
+                  <a href="tel:+916309783808">+91 63097 83808</a>
+                </li>
+                <li>
+                  <span class="contact-details__label">Location</span>
+                  <span>Vijayawada, Andhra Pradesh, India</span>
+                </li>
+                <li>
+                  <span class="contact-details__label">Working hours</span>
+                  <span>Monday to Friday, 10:00 &ndash; 19:00 IST</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="panel" style="margin-bottom: var(--space-m)">
+              <h2 class="panel__title" id="profiles-title">Elsewhere online</h2>
+              <ul class="social-list">
+                <li>
+                  <a class="social-link external-link" href="https://www.linkedin.com/in/saikowshtub-vemula-98073637b/" rel="noopener noreferrer" target="_blank">
+                    LinkedIn<span class="visually-hidden"> profile (opens in a new tab)</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="social-link external-link" href="https://github.com/saikowshtubvemula117-art" rel="noopener noreferrer" target="_blank">
+                    GitHub<span class="visually-hidden"> profile (opens in a new tab)</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="social-link" href="https://example.com" rel="noopener noreferrer" target="_blank">
+                    Blog<span class="visually-hidden"> (opens in a new tab)</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="panel panel--accent">
+              <h2 class="panel__title" id="faq-title">Before you write</h2>
+              <dl class="fact-list">
+                <dt class="fact-list__label">Response time</dt>
+                <dd class="fact-list__value">Within 2 working days</dd>
+                <dt class="fact-list__label">Internships</dt>
+                <dd class="fact-list__value">Yes &mdash; available from June 2026</dd>
+                <dt class="fact-list__label">Freelance</dt>
+                <dd class="fact-list__value">Small accessibility and front-end tasks only</dd>
+                <dt class="fact-list__label">Not right for</dt>
+                <dd class="fact-list__value">Full-stack builds on a two-week deadline</dd>
+              </dl>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="contact-alt-title">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">While you wait</p>
+          <h2 id="contact-alt-title">A good next step</h2>
+          <p>
+            If you are still deciding whether I am the right fit, these two pages answer most of the
+            practical questions.
+          </p>
+        </div>
+        <div class="grid grid--two">
+          <article class="card">
+            <h3>Check what I have built</h3>
+            <p class="text-muted">
+              Three projects with the stack, the key features and the reasoning behind each one &mdash;
+              enough detail for you to judge how I work.
+            </p>
+            <div class="card__footer">
+              <a class="btn btn--secondary btn--small" href="projects.html">View Projects</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Read my background</h3>
+            <p class="text-muted">
+              Education, technical and soft skills, career interests and the learning goals I am
+              working through this year.
+            </p>
+            <div class="card__footer">
+              <a class="btn btn--secondary btn--small" href="about.html">Read About Me</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner">
+        <section aria-labelledby="footer-about-title">
+          <h2 class="site-footer__title" id="footer-about-title">V.Sai Kowshtub</h2>
+          <p class="site-footer__text">
+            Computer Science student building accessible web applications, GIS land governance
+            platforms and smart ticketing systems.
+          </p>
+          <ul class="social-list">
+            <li>
+              <a class="social-link external-link" href="https://www.linkedin.com/in/saikowshtub-vemula-98073637b/" rel="noopener noreferrer" target="_blank">
+                LinkedIn<span class="visually-hidden"> profile (opens in a new tab)</span>
+              </a>
+            </li>
+            <li>
+              <a class="social-link external-link" href="https://github.com/saikowshtubvemula117-art" rel="noopener noreferrer" target="_blank">
+                GitHub<span class="visually-hidden"> profile (opens in a new tab)</span>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="mailto:saikowshtubvemula117@gmail.com">Email<span class="visually-hidden"> me directly</span></a>
+            </li>
+          </ul>
+        </section>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <h2 class="site-footer__title" id="footer-nav-title">Pages</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+
+        <section aria-labelledby="footer-contact-title">
+          <h2 class="site-footer__title" id="footer-contact-title">Get in touch</h2>
+          <ul class="contact-details">
+            <li>
+              <span class="contact-details__label">Email</span>
+              <a href="mailto:saikowshtubvemula117@gmail.com">saikowshtubvemula117@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-details__label">Phone</span>
+              <a href="tel:+916309783808">+91 63097 83808</a>
+            </li>
+            <li>
+              <span class="contact-details__label">Location</span>
+              <span>Vijayawada, Andhra Pradesh, India &mdash; open to remote</span>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p>&copy; <span data-current-year>2026</span> V.Sai Kowshtub. All rights reserved.</p>
+        <p>Built with semantic HTML5 and hand-written CSS. No frameworks, no trackers.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="to-top" href="#main-content" data-to-top aria-hidden="true" tabindex="-1">
+    <span aria-hidden="true">&uarr;</span>
+    <span class="visually-hidden">Back to top of page</span>
+  </a>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>

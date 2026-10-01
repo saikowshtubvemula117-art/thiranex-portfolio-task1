@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | V.Sai Kowshtub &mdash; Web, GIS &amp; AI Portfolio</title>
+  <meta name="description" content="Selected projects by V.Sai Kowshtub: a smart train ticket booking and checking system, an integrated GIS-based land governance platform and a hospital appointment system, with technologies and key features.">
+  <meta name="author" content="V.Sai Kowshtub">
+  <meta name="theme-color" content="#1e3a8a">
+  <meta name="color-scheme" content="light">
+  <link rel="canonical" href="https://sai-portfolio.example.com/projects.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects | V.Sai Kowshtub">
+  <meta property="og:description" content="Three portfolio projects: a smart train ticket booking and checking system, an integrated GIS-based land governance platform and a hospital appointment system.">
+  <meta property="og:locale" content="en">
+  <meta property="og:url" content="https://sai-portfolio.example.com/projects.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Projects | V.Sai Kowshtub">
+  <meta name="twitter:description" content="Three portfolio projects: a smart train ticket booking and checking system, an integrated GIS-based land governance platform and a hospital appointment system.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231e3a8a'/%3E%3Ctext x='32' y='44' font-family='Segoe UI,Arial,sans-serif' font-size='26' font-weight='700' fill='%23ffffff' text-anchor='middle'%3EVS%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" data-site-header>
+    <div class="container site-header__inner">
+      <a class="site-brand" href="index.html">
+        <span class="site-brand__mark" aria-hidden="true">VS</span>
+        <span>V.Sai Kowshtub</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <button class="site-nav__toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="primary-menu">
+          <span class="site-nav__toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span data-nav-toggle-label>Menu</span>
+        </button>
+        <ul class="site-nav__list" id="primary-menu" hidden>
+          <li><a class="site-nav__link" href="index.html">Home</a></li>
+          <li><a class="site-nav__link" href="about.html">About Me</a></li>
+          <li><a class="site-nav__link" href="projects.html" aria-current="page">Projects</a></li>
+          <li><a class="site-nav__link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="scroll-progress" data-scroll-progress aria-hidden="true"></div>
+  </header>
+
+  <main id="main-content">
+    <section class="section" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Portfolio 2026</p>
+          <h1 id="projects-title">Projects</h1>
+          <p class="lead">
+            Three projects that show how I think: start from a real problem, pick the boring technology
+            that fits, and ship something a non-technical person can use without help.
+          </p>
+        </div>
+
+        <nav aria-labelledby="filter-title">
+          <h2 class="visually-hidden" id="filter-title">Filter projects by category</h2>
+          <ul class="filter-bar" data-project-filter>
+            <li>
+              <button class="filter-btn" type="button" data-filter="all" aria-pressed="true">All projects</button>
+            </li>
+            <li>
+              <button class="filter-btn" type="button" data-filter="web" aria-pressed="false">Web applications</button>
+            </li>
+            <li>
+              <button class="filter-btn" type="button" data-filter="ai" aria-pressed="false">AI &amp; machine learning</button>
+            </li>
+            <li>
+              <button class="filter-btn" type="button" data-filter="realtime" aria-pressed="false">Realtime &amp; tracking</button>
+            </li>
+            <li>
+              <button class="filter-btn" type="button" data-filter="civic" aria-pressed="false">Public services</button>
+            </li>
+          </ul>
+        </nav>
+
+        <p class="filter-status" role="status" data-filter-status>3 projects shown for All projects.</p>
+
+        <div class="grid grid--two" id="project-list">
+
+          <article class="project" data-project data-categories="web realtime" aria-labelledby="project-train-title">
+            <header class="project__header">
+              <h2 class="project__title" id="project-train-title">Smart Train Ticket Booking &amp; Checking</h2>
+              <span class="project__index" aria-hidden="true">01</span>
+            </header>
+            <p class="card__meta">
+              <span>Team of 4</span>
+              <span aria-hidden="true">&bull;</span>
+              <span>2026</span>
+              <span aria-hidden="true">&bull;</span>
+              <span>Railway web app</span>
+            </p>
+            <p class="project__summary">
+              A smart railway application that allows users to check train locations, book train and
+              platform tickets, and transfer a booked ticket to another available train when the
+              original train is missed.
+            </p>
+
+            <h3 class="project__block-title">Key features</h3>
+            <ul class="project__features bullet-list">
+              <li>
+                <strong>Live Train Tracking</strong> &mdash; helps users check train locations and the
+                available trains between selected stations.
+              </li>
+              <li>
+                <strong>Easy Ticket Booking</strong> &mdash; lets passengers select trains, ticket
+                classes, the number of passengers, and enter passenger details.
+              </li>
+              <li>
+                <strong>Smart Ticket Transfer</strong> &mdash; transfers a booked ticket to another
+                available train and automatically compares the old and new ticket prices.
+              </li>
+              <li>
+                <strong>Secure Payments</strong> &mdash; supports UPI and card-based payments for
+                ticket booking and for additional fare differences.
+              </li>
+              <li>
+                <strong>QR-Based E-Tickets</strong> &mdash; generates digital tickets that can be
+                scanned and verified by ticket checkers.
+              </li>
+            </ul>
+
+            <h3 class="project__block-title">Technologies used</h3>
+            <ul class="tag-list">
+              <li><span class="tag tag--accent">HTML5</span></li>
+              <li><span class="tag tag--accent">CSS3</span></li>
+              <li><span class="tag tag--accent">JavaScript</span></li>
+              <li><span class="tag tag--accent">Node.js</span></li>
+              <li><span class="tag tag--accent">Express</span></li>
+              <li><span class="tag tag--accent">Socket.IO</span></li>
+              <li><span class="tag tag--accent">PostgreSQL</span></li>
+              <li><span class="tag tag--accent">Razorpay</span></li>
+            </ul>
+
+            <footer class="project__footer">
+              <a class="btn btn--secondary btn--small" href="https://github.com/saikowshtubvemula117-art" rel="noopener noreferrer" target="_blank">
+                View Project<span class="visually-hidden">: Smart Train Ticket Booking &amp; Checking source code (opens in a new tab)</span>
+              </a>
+              <span class="status-badge status-badge--live">Deployed</span>
+            </footer>
+          </article>
+
+          <article class="project" data-project data-categories="ai civic web" aria-labelledby="project-gis-title">
+            <header class="project__header">
+              <h2 class="project__title" id="project-gis-title">Integrated GIS-Based Land Governance</h2>
+              <span class="project__index" aria-hidden="true">02</span>
+            </header>
+            <p class="card__meta">
+              <span>Major project</span>
+              <span aria-hidden="true">&bull;</span>
+              <span>2026</span>
+              <span aria-hidden="true">&bull;</span>
+              <span>GIS &amp; AI</span>
+            </p>
+            <p class="project__summary">
+              A unified GIS platform that connects land records, registration, planning, taxation,
+              utilities and spatial data through a common parcel identity.
+            </p>
+
+            <h3 class="project__block-title">Key features</h3>
+            <ul class="project__features bullet-list">
+              <li>
+                <strong>Parcel-centric GIS</strong> &mdash; connects all information to a single land
+                parcel.
+              </li>
+              <li>
+                <strong>Survey Number + Location Search</strong> &mdash; quickly finds and highlights
+                parcels on the map.
+              </li>
+              <li>
+                <strong>Complete Parcel Intelligence</strong> &mdash; provides ownership, registration,
+                zoning, tax, utilities and land-use information in one view.
+              </li>
+              <li>
+                <strong>AI Land Change Detection</strong> &mdash; analyzes satellite imagery and
+                generates alerts for potential land-use changes.
+              </li>
+              <li>
+                <strong>Citizen &amp; Government Services</strong> &mdash; enables information
+                requests, verification, grievance tracking, and department-level dashboards.
+              </li>
+            </ul>
+
+            <h3 class="project__block-title">Technologies used</h3>
+            <ul class="tag-list">
+              <li><span class="tag tag--accent">PostgreSQL + PostGIS</span></li>
+              <li><span class="tag tag--accent">Leaflet.js</span></li>
+              <li><span class="tag tag--accent">Python</span></li>
+              <li><span class="tag tag--accent">Django</span></li>
+              <li><span class="tag tag--accent">scikit-learn</span></li>
+              <li><span class="tag tag--accent">QGIS</span></li>
+              <li><span class="tag tag--accent">HTML5</span></li>
+              <li><span class="tag tag--accent">CSS3</span></li>
+            </ul>
+
+            <footer class="project__footer">
+              <a class="btn btn--secondary btn--small" href="https://github.com/saikowshtubvemula117-art" rel="noopener noreferrer" target="_blank">
+                View Project<span class="visually-hidden">: Integrated GIS-Based Land Governance source code (opens in a new tab)</span>
+              </a>
+              <span class="status-badge status-badge--progress">In progress</span>
+            </footer>
+          </article>
+
+          <article class="project" data-project data-categories="web civic" aria-labelledby="project-praveen-title">
+            <header class="project__header">
+              <h2 class="project__title" id="project-praveen-title">Praveen Hospital Appointment System</h2>
+              <span class="project__index" aria-hidden="true">03</span>
+            </header>
+            <p class="card__meta">
+              <span>Team of 3</span>
+              <span aria-hidden="true">&bull;</span>
+              <span>2025</span>
+              <span aria-hidden="true">&bull;</span>
+              <span>Healthcare web app</span>
+            </p>
+            <p class="project__summary">
+              A smart digital platform that simplifies hospital appointment booking by helping patients
+              find suitable doctors, check available time slots, and book appointments online.
+            </p>
+
+            <h3 class="project__block-title">Key features</h3>
+            <ul class="project__features bullet-list">
+              <li>Mobile number + OTP login for secure access.</li>
+              <li>Hospital city and branch / sub-location selection.</li>
+              <li>Doctor search by medical issue, or browse the full doctor list.</li>
+              <li>
+                Doctor profiles with specialization, education, experience and consultation details.
+              </li>
+              <li>Real-time appointment date and time-slot selection.</li>
+              <li>UPI payment or pay-at-hospital option.</li>
+              <li>SMS confirmation with appointment and payment details.</li>
+              <li>Appointment history and booking information inside the app.</li>
+            </ul>
+
+            <h3 class="project__block-title">Technologies used</h3>
+            <ul class="tag-list">
+              <li><span class="tag tag--accent">HTML5</span></li>
+              <li><span class="tag tag--accent">CSS3</span></li>
+              <li><span class="tag tag--accent">JavaScript</span></li>
+              <li><span class="tag tag--accent">Node.js</span></li>
+              <li><span class="tag tag--accent">Express</span></li>
+              <li><span class="tag tag--accent">MySQL</span></li>
+              <li><span class="tag tag--accent">Twilio</span></li>
+              <li><span class="tag tag--accent">Razorpay</span></li>
+            </ul>
+
+            <footer class="project__footer">
+              <a class="btn btn--secondary btn--small" href="https://github.com/saikowshtubvemula117-art" rel="noopener noreferrer" target="_blank">
+                View Project<span class="visually-hidden">: Praveen Hospital Appointment System source code (opens in a new tab)</span>
+              </a>
+              <span class="status-badge status-badge--live">Deployed</span>
+            </footer>
+          </article>
+
+        </div>
+
+        <p class="notice notice--error" data-filter-empty hidden style="margin-top: var(--space-m)">
+          <span class="notice__icon" aria-hidden="true">!</span>
+          <span>No projects match that category yet. Choose &ldquo;All projects&rdquo; to see everything.</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="approach-projects-title">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Thinking</p>
+          <h2 id="approach-projects-title">How I evaluate my own work</h2>
+          <p>
+            Every project above was measured against the same checklist before I published it, because
+            &ldquo;it works on my laptop&rdquo; is not a standard.
+          </p>
+        </div>
+        <div class="grid grid--two">
+          <article class="card">
+            <h3>Accessibility gate</h3>
+            <p class="text-muted">
+              Lighthouse Accessibility at 100 plus a manual keyboard pass and an axe DevTools scan with
+              zero critical issues. Anything less is a bug, not a known limitation.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Performance gate</h3>
+            <p class="text-muted">
+              A 90+ Performance score on a throttled mobile profile, with a JavaScript payload under
+              30&nbsp;kB before compression.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Resilience gate</h3>
+            <p class="text-muted">
+              What does the user see when the API times out or the network drops? Empty states and
+              retry paths are designed, not improvised.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Explanation gate</h3>
+            <p class="text-muted">
+              If I cannot explain a design decision in three sentences, the code is too clever and gets
+              simplified.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" aria-labelledby="projects-cta-title">
+      <div class="container cta__inner">
+        <div>
+          <h2 id="projects-cta-title">Have a problem like these?</h2>
+          <p>
+            I am looking for a 2026 internship where I can contribute to real front-end work. If you
+            have a codebase that needs an accessibility pass, I would genuinely enjoy hearing about it.
+          </p>
+        </div>
+        <div class="btn-row">
+          <a class="btn" href="contact.html">Contact Me</a>
+          <a class="btn btn--ghost-light" href="about.html">Read My Background</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner">
+        <section aria-labelledby="footer-about-title">
+          <h2 class="site-footer__title" id="footer-about-title">V.Sai Kowshtub</h2>
+          <p class="site-footer__text">
+            Computer Science student building accessible web applications, GIS land governance
+            platforms and smart ticketing systems.
+          </p>
+          <ul class="social-list">
+            <li>
+              <a class="social-link external-link" href="https://www.linkedin.com/in/saikowshtub-vemula-98073637b/" rel="noopener noreferrer" target="_blank">
+                LinkedIn<span class="visually-hidden"> profile (opens in a new tab)</span>
+              </a>
+            </li>
+            <li>
+              <a class="social-link external-link" href="https://github.com/saikowshtubvemula117-art" rel="noopener noreferrer" target="_blank">
+                GitHub<span class="visually-hidden"> profile (opens in a new tab)</span>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="mailto:saikowshtubvemula117@gmail.com">Email<span class="visually-hidden"> me directly</span></a>
+            </li>
+          </ul>
+        </section>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <h2 class="site-footer__title" id="footer-nav-title">Pages</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html" aria-current="page">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <section aria-labelledby="footer-contact-title">
+          <h2 class="site-footer__title" id="footer-contact-title">Get in touch</h2>
+          <ul class="contact-details">
+            <li>
+              <span class="contact-details__label">Email</span>
+              <a href="mailto:saikowshtubvemula117@gmail.com">saikowshtubvemula117@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-details__label">Phone</span>
+              <a href="tel:+916309783808">+91 63097 83808</a>
+            </li>
+            <li>
+              <span class="contact-details__label">Location</span>
+              <span>Vijayawada, Andhra Pradesh, India &mdash; open to remote</span>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p>&copy; <span data-current-year>2026</span> V.Sai Kowshtub. All rights reserved.</p>
+        <p>Built with semantic HTML5 and hand-written CSS. No frameworks, no trackers.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="to-top" href="#main-content" data-to-top aria-hidden="true" tabindex="-1">
+    <span aria-hidden="true">&uarr;</span>
+    <span class="visually-hidden">Back to top of page</span>
+  </a>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
